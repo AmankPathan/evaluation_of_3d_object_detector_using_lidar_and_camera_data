@@ -51,14 +51,6 @@ The goal is to understand how well a 3D object detector performs when applied to
 
 ---
 
-## Next Steps
-
-- Try larger datasets like full **KITTI** or **Astyx**.  
-- Experiment with different object detectors.  
-- Explore sensor fusion strategies (low-level, feature-level, high-level fusion).
-
----
-
 ## Discussion
 
 - In 3D object detection with Lidar data, the absolute number of points inside a bounding box might seems accurate but it is not always valid. Because that number can be affected with some external factors such as distance to object, occlusion, lidar density. That is why we do not consider absolute count as a parameter for evaluating our result. Instead we use relative percentage that simply tells us how many points fall inside the box, we then calculate the percentage of the objects total points that are captured. This gives us a normalized, scene-independent measure of localization accuracy.
@@ -69,5 +61,14 @@ and measures how correctly the system identifies where the object(car) is locate
 *Real-time Use*: The system is not designed to handle real-time performance. This can only be used for research or study purpose.
 - **Would I put this in an actual car?** Not yet. While it is good for research and development, it is not yet ready for real-world driving conditions. The system needs improvements in speed, reliability and error handling before putting it to an actual vehicle. For something critical like autonomous driving, we need multiple backup systems and a solid real-time performance which is similar to what we do multi-threading in Robot Operating System(ROS).
 
+---
+
+## Next Steps
+
+- Try larger datasets like full **KITTI** or **Astyx**.  
+- Experiment with different object detectors.  
+- Explore sensor fusion strategies (low-level, feature-level, high-level fusion).
+
+---
 
 
