@@ -61,6 +61,9 @@ and measures how correctly the system identifies where the object(car) is locate
 *Real-time Use*: The system is not designed to handle real-time performance. This can only be used for research or study purpose.
 - **Would I put this in an actual car?** Not yet. While it is good for research and development, it is not yet ready for real-world driving conditions. The system needs improvements in speed, reliability and error handling before putting it to an actual vehicle. For something critical like autonomous driving, we need multiple backup systems and a solid real-time performance which is similar to what we do multi-threading in Robot Operating System(ROS).
 
+<img width="600" height="600" alt="detection_quality_pie_chart" src="https://github.com/user-attachments/assets/60a305ab-d825-484b-9e0b-a7e234660d96" />
+<img width="1200" height="600" alt="all_images_evaluation_bar_chart" src="https://github.com/user-attachments/assets/160cb458-32ac-42fc-9f01-c38408e9bb5b" />
+
 ---
 
 ## Next Steps
@@ -70,5 +73,6 @@ and measures how correctly the system identifies where the object(car) is locate
 - Explore sensor fusion strategies (low-level, feature-level, high-level fusion).
 
 ---
+
 
 
